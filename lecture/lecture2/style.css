@@ -1,0 +1,17 @@
+
+h1{
+    color:aqua;
+}
+#box{
+    background-color: blue;
+}
+.box1{
+    background-color: brown;
+}
+p,h2{
+    color: blueviolet;
+}
+*{
+    color:lightblue;
+}
+

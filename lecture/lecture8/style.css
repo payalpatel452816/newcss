@@ -1,0 +1,38 @@
+.main{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    align-self: flex-end; 
+     align-self: center; 
+     align-self: end; 
+     align-self: start;
+}
+.one{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+.two{
+    width: 30px;
+    height: 30px;
+    background-color:violet;
+}
+.three{
+    width: 40px;
+    height: 30px;
+    background-color:red;
+}
+.four{
+    width: 30px;
+    height: 30px;
+    background-color:palevioletred;
+} 
+
+/* normal,pre,pre-wrap,pre-line,nowrap*/
+p{
+    white-space: nowrap; 
+     white-space: pre-line; 
+    white-space: pre-wrap;
+    white-space: pre;
+}

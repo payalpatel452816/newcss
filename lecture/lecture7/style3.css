@@ -1,0 +1,64 @@
+.main{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    border: 1px solid blue;
+/*Css flexbox Wrap properties*/
+     /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: initial;
+
+    /*CSS flex-direction properties*/
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+
+    /*CSS Flex align properties*/
+            /* align-content: center; */
+            /* align-content: start; */
+            /* align-content: end; */
+            /* align-items: center; */
+            /* align-items: end; */
+            /* align-items: start; */
+
+
+      /*CSS FLEXBOX WRAP PROPERTIES*/
+      /* flex-wrap: nowrap;
+      flex-wrap: wrap;
+      flex-wrap: wrap-reverse;
+      flex-wrap: initial; */
+
+
+      /*CSS flexbox Justyfy-Content*/
+      /* justify-content: end;*/
+      /* justify-content: start; */
+      /* justify-content: center; */
+      /* justify-content: space-around; */
+      /* justify-content: space-between; */
+      justify-content: space-evenly;
+} 
+.container1{
+    height: 30px;
+    width: 30px;
+    background-color:coral;
+}
+.container2{
+    height: 30px;
+    width: 30px;
+    background-color:blue;
+}
+.container3{
+    height: 30px;
+    width: 30px;
+    background-color:blueviolet;
+}
+.container4{
+    height: 30px;
+    width: 30px;
+    background-color:sienna;
+}
+
+

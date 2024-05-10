@@ -1,0 +1,58 @@
+/*color*/
+.box{
+    color:red;
+    color:rgb(255 226 225);
+    color: #000;
+}
+/* Background color*/
+.bgcolor{
+    background-color: antiquewhite;
+}
+/*border*/
+.border{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+/*border*/
+.border{
+    color:white;
+    border-width: 10px;
+    border-style: double;
+    border-color: red;
+
+}
+/*css multiple border*/
+.multi_border{
+    background-color: pink;
+    border-top: 2px solid red;
+    border-right: 2px dashed black;
+    border-bottom:  2px dotted black ;
+    border-left: 2px double green;
+    height: 100px;
+    width: 100px;
+}
+h1{
+    border-style: dotted;
+    border-width: 2px;
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+}
+h2{
+    border-style: dashed;
+    border-width: 2px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+/*redius*/
+.redius{
+    color: blueviolet;
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 20px;
+
+}

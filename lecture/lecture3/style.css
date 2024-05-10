@@ -1,0 +1,50 @@
+/*@import value*/
+@import"importstyle.css";
+@import url("importstyle.css");
+
+
+
+
+/*cascade*/
+h2{
+    color: blue;
+}
+h1{
+    color: aliceblue;
+}
+
+
+/*spicificity*/
+
+h4{
+    color: brown;
+}
+
+#spicificity_id{
+    color: brown;
+}
+.spicificity_class{
+    color: blueviolet;
+}
+
+
+/*inheritance*/
+.parent{
+color: chocolate;
+}
+
+/*child*/
+p{
+    color: bisque;
+}
+/* Inherits means parent  style take*/
+p{
+    color: inherit;
+}
+/* Initial means default browser take style*/
+p{
+    color: initial;
+}
+h6{
+    color: crimson;
+}

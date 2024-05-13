@@ -36,3 +36,7 @@ p{
     white-space: pre-wrap;
     white-space: pre;
 }
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

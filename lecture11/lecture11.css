@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    background-color: black;
+    box-shadow: 10px 10px 2px 1px blanchedalmond;
+    margin: 20px;
+}
+p{
+    text-align: center;
+    text-decoration: dotted;
+    text-shadow: 1px;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    text-decoration-line: line-through;
+    text-decoration-color: blue;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-shadow: 2px 3px; 
+
+}

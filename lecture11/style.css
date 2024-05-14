@@ -1,0 +1,38 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 100px 100px 100px 100px;
+    text-align: center;
+}
+.box1{
+   
+    background-color: beige;
+    grid-column: 1/4;
+}
+.box2{
+   
+    background-color: blue;
+    grid-row: 2/4;
+}
+.box3{
+ 
+    background-color: bisque;
+    grid-column: 2/4;
+}
+.box4{
+    
+    background-color: brown;
+}
+.box5{
+    background-color: chartreuse;
+}
+.box6{
+
+    background-color: yellowgreen;
+}

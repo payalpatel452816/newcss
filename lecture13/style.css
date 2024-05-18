@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clip{
+    width: 60%;
+    height: 10pc;
+    background-color: brown;
+    border: 5px dashed black;
+    margin: 50px auto;
+    padding: 100px;
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;
+}
+.listing{
+    margin: auto;
+    width: 40pc;
+    height:300px ;
+    background-color:aqua ;
+    list-style-type: outside;
+    list-style-type: circle;
+    list-style-type: url(img);
+    list-style-position: inside;
+}
+.width{
+    width: 800px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 5px solid red;
+    margin: auto;
+}
+.min-width{
+    min-width: 500px;
+    max-width:600px ;
+    height: 200px;
+    background-color: bisque;
+    border: 1px solid brown;
+    margin: auto;
+}

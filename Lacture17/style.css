@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   width: 200px;
+   height: 200px;
+   background-color: aqua;
+   /* overflow: scroll;
+   overflow-wrap: break-word; */
+   /* overflow: scroll; */
+   /* overflow-wrap: break-word; */
+   overflow-x: hidden;
+   overflow-y: hidden;
+}

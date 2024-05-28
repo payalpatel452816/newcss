@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:link{
+    color: blue;
+}
+a:hover{
+    color: aqua;
+    background-color: black;
+}
+a:active{
+    color: black;
+    background-color: aqua;
+}
+a:visited{
+    color: lightcoral;
+    background-color: yellow;
+}
+:root{
+        /* color: brown; */
+}
+p:first-child{
+    color: red;
+    background-color: lightblue;
+}
+p:last-child{
+    color: brown;
+    background-color: yellow;
+}
+p:nth-child(2n){
+    /* color: red;
+    background-color: black; */
+}
+p:nth-child(2n+1){
+    color: rebeccapurple;
+    background-color: antiquewhite;
+}
+p:nth-child(odd){
+     color: red;
+    background-color: black; 
+} 
+p:nth-child(even){
+    color: rebeccapurple;
+    background-color: antiquewhite;
+}
+
+/*    PSEUDO  ELEMENT*/
+::selection{
+    color: black;
+    background-color: lightcoral;
+} 
+p::first-letter{
+    color: brown;
+    font-size: 20px;
+}
+P::first-line{
+    color: red;
+    font-size: 20px;
+}
+h1::before{
+    content: "*";
+}
+h1::after{
+    content: "payal patel";
+}
+/*APPLY LIST MARKER*/
+li::marker{
+    color: red;
+    font-size: 25px;
+}

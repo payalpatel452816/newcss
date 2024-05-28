@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgba(117, 117, 6, 0.596);
+}
+.tooltip{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+    padding:10px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.tooltip:hover{
+    background-color: brown;
+    color: black;
+}
